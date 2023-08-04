@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước tối đa */
+}
+
+#gai2vn {
+    width: 100%; /* Ảnh sẽ có chiều rộng 100% của phần tử chứa nó */
+    height: auto; /* Chiều cao của ảnh sẽ tự động điều chỉnh để giữ nguyên tỷ lệ */
+}
+
+nav {
+	background-color: #3D423D;
+	overflow: hidden;
+}
+
+nav a {
+	background-color: #87182E;
+	color: white;
+	padding: 30px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+nav a:hover {
+	background-color: #DDD;
+	color: black;
+}
+
+#free {
+	background-color: #DDD;
+	color: black;
+	padding: 50px;
+	font-size: 20px;
+}
+
